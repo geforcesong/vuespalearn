@@ -10,7 +10,7 @@ module.exports = {
     },
     output: {
         path: resolve(__dirname, 'public', 'assets'),
-        filename: '[name].bundle.js'
+        filename: '[name].[hash].bundle.js'
     },
     debug: true,
     devtool: 'source-map',

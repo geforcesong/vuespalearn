@@ -1,5 +1,5 @@
 <template>
-    <h1>
+    <h1 v-on:click="click">
         home vue template
     </h1>
 </template>
@@ -7,12 +7,17 @@
     export default {
         components: {
             
+        },
+        methods: {
+            click(){
+                alert("haha");
+            }
         }
     }
 </script>
 
 <style scoped>
-    h1{
-        color:red;
+    h1 {
+        color: red;
     }
 </style>
