@@ -33,6 +33,9 @@ module.exports = {
             css: 'vue-style!css!postcss!less'
         }
     },
+    postcss: function() {
+        return [];
+    },
     resolve: {
         root: [
             resolve(__dirname),
