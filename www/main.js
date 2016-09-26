@@ -10,6 +10,9 @@ class App {
         var App = {};
         var router = new VueRouter();
         router.map(Routes);
+        router.redirect({
+            '*': '/home'
+        });
         router.start(App, 'body')
     }
 }
