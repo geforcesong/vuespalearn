@@ -17,11 +17,21 @@ module.exports = {
     module: {
         loaders: [
             {
+                test: /\.vue$/,
+                loader: 'vue'
+            },
+            {
                 test: /\.js$/,
                 loader: 'babel?{"presets":["es2015"]}',
                 exclude: /node_modules/
             }
         ]
+    },
+    vue: {
+        loaders: {
+            js: 'babel?{"presets":["es2015"]}',
+            css: 'vue-style!css!postcss!less'
+        }
     },
     resolve: {
         root: [

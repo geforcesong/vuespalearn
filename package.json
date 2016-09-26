@@ -28,6 +28,9 @@
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
     "html-webpack-plugin": "^2.22.0",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.4",
+    "vue-style-loader": "^1.0.0",
     "webpack": "^1.13.2"
   }
 }

@@ -14,7 +14,7 @@
         }
     </style>
 </head>
-<body class="window" id="app">
+<body class="window">
     <router-view></router-view>
 </body>
 </html>
